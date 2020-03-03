@@ -18,6 +18,6 @@ def valid_phone_number?(phone)
 
 end
 
-a = words_starting_with_un_and_ending_with_ing("unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary")
+a = words_five_letters_long("returns an array of words that are five letters long")
 
 puts a
