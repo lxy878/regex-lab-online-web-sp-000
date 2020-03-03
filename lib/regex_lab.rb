@@ -11,13 +11,12 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  returns text.match(/[A-Z].+[.!?\\-]/)
 end
 
 def valid_phone_number?(phone)
 
 end
 
-a = words_five_letters_long("extreme briny crepe parking snaps grouping snafu round dog be fork spoon")
-
-puts a.size
+s = "I stepped on a Corn Flake, now I'm a cereal killer."
+puts first_word_capitalized_and_ends_with_punctuation?(s)
