@@ -18,6 +18,6 @@ def valid_phone_number?(phone)
 
 end
 
-a = words_five_letters_long("returns an array of words that are five letters long")
+a = words_five_letters_long("extreme briny crepe parking snaps grouping snafu round dog be fork spoon")
 
 puts a
