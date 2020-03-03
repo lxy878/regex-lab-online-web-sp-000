@@ -18,4 +18,6 @@ def valid_phone_number?(phone)
 
 end
 
-puts words_starting_with_un_and_ending_with_ing("unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary")
+a = words_starting_with_un_and_ending_with_ing("unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary")
+
+puts a
