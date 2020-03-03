@@ -18,5 +18,5 @@ def valid_phone_number?(phone)
 
 end
 
-s = "I stepped on a Corn Flake, now I'm a cereal killer."
+s  = "i wondered why the baseball was getting bigger. Then it hit me."
 puts first_word_capitalized_and_ends_with_punctuation?(s)
