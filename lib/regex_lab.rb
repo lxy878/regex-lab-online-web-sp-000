@@ -18,5 +18,5 @@ def valid_phone_number?(phone)
   return !phone.grep(/(\(|)\d{3}(\)|\s|)\d{3}(-|\s|)\d{4}/).empty?
 end
 
-s  = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
+s  = ["28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"]
 puts valid_phone_number?(s)
