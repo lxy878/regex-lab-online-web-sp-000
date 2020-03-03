@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  return word.scan(/^[aeiouAEIOU]\w*/)
+  word.match(/^[aeiouAEIOU]\w*/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
@@ -18,4 +18,4 @@ def valid_phone_number?(phone)
 
 end
 
-puts starts_with_a_vowel?("chandoo").class
+puts starts_with_a_vowel?("chandoo")
