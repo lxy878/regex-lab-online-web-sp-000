@@ -15,7 +15,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-
+  return text.match?(//)
 end
 
 s  = "I wondered why the baseball was getting bigger. Then it hit me."
