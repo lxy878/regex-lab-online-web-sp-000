@@ -20,4 +20,4 @@ end
 
 a = words_five_letters_long("extreme briny crepe parking snaps grouping snafu round dog be fork spoon")
 
-puts a
+puts a.count
