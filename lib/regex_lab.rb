@@ -15,8 +15,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  return text.match?(//)
+  return text.grep(/(\(|)\d{3}(\)|\s|)\d{3}(-|\s|)\d{4}/).empty?
 end
 
-s  = "I wondered why the baseball was getting bigger. Then it hit me."
-puts first_word_capitalized_and_ends_with_punctuation?(s)
+s  = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
+puts valid_phone_number?(s)
