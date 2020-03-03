@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  return word.match(/^[aeiouAEIOU]\w*/)
+   return word.match(/^[aeiouAEIOU]\w*/) {|match| match.nil?}
+
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
@@ -18,4 +19,4 @@ def valid_phone_number?(phone)
 
 end
 
-puts starts_with_a_vowel?("chandoo") == nil
+puts starts_with_a_vowel?("chandoo")
